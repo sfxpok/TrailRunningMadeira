@@ -14,9 +14,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="20dp"
-            android:src="@drawable/logo_madeira" />
+            android:src="@drawable/icon_about" />
         <TextView
-            android:text="Username"
+            android:text="Full Name"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -32,29 +32,63 @@
             android:layout_height="10dp"
             android:background="@android:color/" />
         <TextView
-            android:text="Password"
+            android:text="Email"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView2" />
         <EditText
+            android:id="@+id/email"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:padding="5dp"
+            android:background="#d3d3d3" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:background="@android:color/" />
+        <TextView
+            android:text="Password"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" />
+        <EditText
             android:id="@+id/password"
             android:layout_width="fill_parent"
             android:layout_height="45dp"
             android:padding="5dp"
+            android:background="#d3d3d3" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:background="@android:color/" />
+        <TextView
+            android:text="Birthday"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4" />
+        <EditText
+            android:id="@+id/birthday"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:padding="5dp"
             android:background="#d3d3d3"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:clickable="true"
+            android:editable="false" />
         <Button
             android:id="@+id/login"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/password"
+            android:layout_below="@id/birthday"
             android:layout_marginTop="10dp"
             android:background="#d3d3d3"
-            android:text="Login"
+            android:text="Create"
             android:textColor="@android:color/white" />
         <TextView
-            android:text="Don't have an account? Sign Up"
+            android:text="Already have an account? Sign In"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
